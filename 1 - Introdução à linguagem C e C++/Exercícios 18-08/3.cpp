@@ -49,7 +49,7 @@ void impressao(int M[MAX][MAX], int m, int n)
 	{
 		for (j = 0; j < n; j++)
 		{
-			printf("%d ", &M[i][j]);
+			printf("%d ", M[i][j]);
 		}
 		printf("\n");
 	}
