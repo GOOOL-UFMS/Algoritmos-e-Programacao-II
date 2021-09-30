@@ -1,0 +1,11 @@
+Considere o pseudocódigo da seguinte função recursiva
+
+Qual é o valor retornado pela função se ela for chamada com x = 4?
+
+inteiro F1(x:inteiro)
+  se x = 1 então
+    retorne -x
+  senão
+    retorne -5 * F1 (x-1) + x;
+
+b. 164
